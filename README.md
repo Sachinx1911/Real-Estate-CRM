@@ -1,16 +1,55 @@
-# React + Vite
+# Real Estate CRM
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+बिल्डर/developer साठी web-based CRM — leads, properties, deals, booking, payments व documents एका ठिकाणी.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Frontend:** React (Vite) + Tailwind CSS
+- **Backend/DB:** Supabase (PostgreSQL + Auth + Storage)
+- **Deploy:** Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## पूर्ण Plan
+project ची पूर्ण planning, features, database design व phases पाहण्यासाठी 👉 [`docs/PLAN.md`](docs/PLAN.md)
 
-## React Compiler
+## दुसऱ्या laptop वर setup कसे करायचे
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# 1. Repo clone करा
+git clone https://github.com/Sachinx1911/Real-Estate-CRM.git
+cd Real-Estate-CRM
 
-## Expanding the Oxlint configuration
+# 2. Dependencies install करा
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# 3. .env file तयार करा (Supabase keys सह) — खाली पहा
+
+# 4. App चालवा
+npm run dev
+```
+
+App उघडेल: `http://localhost:5173`
+
+## Environment Variables
+project root मध्ये `.env` नावाची file तयार करा (ही git मध्ये जात नाही):
+
+```
+VITE_SUPABASE_URL=तुमचा-supabase-project-url
+VITE_SUPABASE_ANON_KEY=तुमची-supabase-anon-key
+```
+
+> Supabase → Settings → API मधून URL व anon key मिळेल.
+
+## Progress
+- [x] Phase 0 — React + Vite setup
+- [ ] Phase 1 — Login/Auth
+- [ ] Phase 2 — Leads
+- [ ] Phase 3 — Properties
+- [ ] Phase 4 — Deals + Booking Wizard
+- [ ] Phase 5 — Payments
+- [ ] Phase 6 — Documents
+- [ ] Phase 7 — Availability chart
+- [ ] Phase 8 — Global search
+- [ ] Phase 9 — Dashboard + Export
+- [ ] Phase 10 — Notifications
+- [ ] Phase 11 — Activity log + Roles
+- [ ] Phase 12 — Bulk import
+- [ ] Phase 13 — Deploy
