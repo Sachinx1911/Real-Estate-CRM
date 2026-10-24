@@ -6,6 +6,7 @@ Planning and research for a new real estate CRM for a builder in Maharashtra (Na
 
 | File | Contents |
 |---|---|
+| [docs/00-Project-Status-and-Rules.md](docs/00-Project-Status-and-Rules.md) | Project status, working rules, pending decisions and next steps (read first) |
 | [docs/01-Beans-Online-features.md](docs/01-Beans-Online-features.md) | Full feature documentation of the current Beans Online system |
 | [docs/02-HomeLead-features.md](docs/02-HomeLead-features.md) | Full feature documentation of the current HomeLead system |
 | [docs/03-Real-Estate-CRM-modules.md](docs/03-Real-Estate-CRM-modules.md) | Functional documentation of all modules for the new CRM |
